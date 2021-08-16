@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    
+    <div  class="row col-sm-7" >
+       
+                
+        <div class="col-sm-6 pt-5">
+            <div class="d-flex p-1" id="Plaque" dir="ltr">
+
+            <input  name="ser_plaque" id="ser_plaque" 
+            class="form-control" type="text" placeholder="سرى پلاک"
+            onkeypress="if(checkOnKey(this,event,2)) return false;"
+            onkeydown="autoTab(event,'ser_plaque',2);"
+              >  
+
+            <select id="char_plaque" class="h4" disabled>
+            <option value="ع" selected="selected" >ع</option>
+            </select>
+                
+            <input name="num_plaque" id="num_plaque" 
+            class="form-control" type="text" placeholder="شماره پلاک"
+            onkeypress="if(checkOnKey(this,event,3)) return false;"
+            onkeydown="autoTab(event,'num_plaque',3);"
+             >
+                  
+             <input  name="ir_plaque" id="ir_plaque" 
+             class="form-control"type="text" placeholder="منطقه "
+             onkeypress="if(checkOnKey(this,event,2)) return false;"
+             onkeydown="autoTab(event,'ir_plaque',2);"
+              >
+
+        </div>
+    </div> 
+</div>
+
+
+
+<script src="app.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body>
+</html>
+

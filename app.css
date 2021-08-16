@@ -1,0 +1,35 @@
+		#Plaque{
+			background-image: url('Plaque.png');background-position: center;
+            background-repeat: no-repeat,repeat;
+            background-size:100% 100%;
+		}
+        #ser_plaque{
+            width: 40%;
+            text-align: right;
+            background-color: #00000000;
+            border-width: 0pt;
+            font-size: 17px;
+        }
+        #num_plaque{
+            width: 35%;
+            text-align: center;
+            background-color: #00000000;   
+            border-width: 0pt;
+            font-size: 17px;
+        }
+
+        #ir_plaque{
+            width: 22%;
+            text-align: center;
+            background-color: #00000000;
+            border-width: 0pt;
+            font-size: 17px;
+        }
+
+        select{
+            width: 13%;text-align: center;
+            color: black;
+            background-color: #00000000;
+            border-width: 0pt;
+            font-size: 16px;
+        }
